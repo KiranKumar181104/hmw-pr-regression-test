@@ -1,0 +1,25 @@
+fixture_id,seeded_pattern,expected_source_path
+FIX-01,Shell command injection,fixtures/python/command_shell.py
+FIX-02,Unsafe shell invocation,fixtures/python/shell_system.py
+FIX-03,Dynamic evaluation,fixtures/python/dynamic_eval.py
+FIX-04,Dynamic execution,fixtures/python/dynamic_exec.py
+FIX-05,Unsafe pickle deserialization,fixtures/python/pickle_load.py
+FIX-06,Unsafe YAML deserialization,fixtures/python/yaml_load.py
+FIX-07,TLS verification disabled,fixtures/python/http_no_tls_verify.py
+FIX-08,XML external entities enabled,fixtures/python/xml_parser.py
+FIX-09,Insecure temporary filename,fixtures/python/temp_name.py
+FIX-10,Weak MD5 digest,fixtures/python/weak_md5.py
+FIX-11,Weak SHA-1 digest,fixtures/python/weak_sha1.py
+FIX-12,Predictable token generation,fixtures/python/weak_random.py
+FIX-13,SQL string interpolation,fixtures/python/sql_query.py
+FIX-14,Request-controlled file path,fixtures/python/path_read.py
+FIX-15,Request-controlled redirect,fixtures/python/untrusted_redirect.py
+FIX-16,Server-side template injection,fixtures/python/render_template.py
+FIX-17,Dynamic evaluation,fixtures/javascript/dynamic-eval.js
+FIX-18,Dynamic function construction,fixtures/javascript/function-constructor.js
+FIX-19,Shell command injection,fixtures/javascript/exec-command.js
+FIX-20,DOM HTML injection,fixtures/javascript/dom-html.js
+FIX-21,Request-controlled redirect,fixtures/javascript/redirect.js
+FIX-22,Request-controlled file path,fixtures/javascript/path-read.js
+FIX-23,Weak MD5 digest,fixtures/javascript/weak-digest.js
+FIX-24,TLS verification disabled,fixtures/javascript/disabled-tls.js
