@@ -14,3 +14,6 @@ Use the repository for staging code scans only. Do not run or deploy the snippet
 
 For a fallback, record whether the AI presents the path as a new config file or as an
 existing file. Check whether the fallback fits the finding and the project's configuration.
+
+
+TC-NOV-092 staging PR check baseline.
